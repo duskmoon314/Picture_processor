@@ -7,4 +7,4 @@ picture1 = input("please input the direction\n")
 picture2 = input("\nplease input another direction\n")
 output_path = input("\nnow input output's path\n")
 
-
+processor.process(picture1, picture2, output_path)
