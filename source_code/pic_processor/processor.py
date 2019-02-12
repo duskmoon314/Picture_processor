@@ -36,9 +36,13 @@ def process(picture_direction1, picture_direction2, output_direction):
                             output.putpixel((n, m), im1.getpixel((n, m)))
                         else:
                             output.putpixel((n, m), im2.getpixel((n, m)))
-            output.save(os.path.splitext(output_direction)[0] + "output.png", "PNG")
+            # 存储
+            output.save(os.path.splitext(output_direction)[0] + ".png", "PNG")
 
 
-def test_function():
-    print("test")
+def make_thumbs(img_direction, size=(100, 100)):
+    if img_direction != "":
+        img_object = Image.open(img_direction)
+        img_object.thumbnail(size, Image.ANTIALIAS)
+        return img_object
 
