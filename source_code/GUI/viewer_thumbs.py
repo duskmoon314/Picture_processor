@@ -1,3 +1,8 @@
+"""
+欲实现图像处理前后的预览
+因较为麻烦暂且搁置
+"""
+
 import os, sys, math
 from tkinter import *
 from tkinter import ttk

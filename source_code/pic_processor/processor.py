@@ -2,6 +2,7 @@
 import os, sys
 from PIL import Image
 
+
 # pictureDir = input("please input the direction of the picture")  需要在实现ui时进行改动
 
 
@@ -46,3 +47,16 @@ def make_thumbs(img_direction, size=(100, 100)):
         img_object.thumbnail(size, Image.ANTIALIAS)
         return img_object
 
+
+output_image_type_name = ('BMP', 'EPS', 'GIF', 'ICNS', 'ICO',
+                          'JPEG', 'JPEG 2000', 'PCX',
+                          'PNG', 'PPM', 'SGI', 'TGA', 'TIFF',
+                          'WebP', 'PDF')
+image_type = [('BMP', '.bmp'), ('EPS', '.eps'), ('CompuServe GIF' '.gif'), ('ICNS', '.icns'), ('ICO', '.ico'),
+                    ('JPEG', '.jpg'), ('JPEG 2000', '.j2p;.jpx;.j2k'), ('PCX', '.pcx'),
+                    ('PNG', '.png'), ('Portable Bit Map', '.pbm;.pgm;.ppm'), ('SGI', '.sgi'), ('Targa', '.tga'),
+                    ('TIFF', '.tif'), ('WebP', '.webp')]
+out_image_type = [('BMP', '.bmp'), ('EPS', '.eps'), ('CompuServe GIF' '.gif'), ('ICNS', '.icns'), ('ICO', '.ico'),
+                    ('JPEG', '.jpg'), ('JPEG 2000', '.j2p;.jpx;.j2k'), ('PCX', '.pcx'),
+                    ('PNG', '.png'), ('Portable Bit Map', '.pbm;.pgm;.ppm'), ('SGI', '.sgi'), ('Targa', '.tga'),
+                    ('TIFF', '.tif'), ('WebP', '.webp'), ('PDF', '.pdf')]
