@@ -24,6 +24,12 @@ XD
 
 
 
+## p.s.
+
+对于Git和GitHub的使用还不是很熟，可能有多余无用的文件也在库里。请注意
+
+
+
 ###### 贡献者
 
 Campbell He (duskmoon314)
