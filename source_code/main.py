@@ -41,12 +41,10 @@ type_list.grid(column=1, row=1, sticky=W)
 def img_convert():
     try:
         original_image = to_convert.get_file()
-        output_image = filedialog.asksaveasfilename(filetypes=[('图片', '.bmp;.eps;.gif;.icns;.ico;'
-                                                                      '.jpg;.j2p;.jpx;.j2k;.pcx;.png;'
-                                                                      '.pbm;.pgm;.ppm;.sgi;.tga;.tif;.webp;.pdf')])
+        output_image = filedialog.asksaveasfilename(filetypes=[('图片', '.*')])
         if output_image:
             image = Image.open(original_image)
-            image.save(os.path.splitext(original_image)[0] + '.' + type_list.get())
+            image.save(os.path.splitext(output_image)[0] + '.' + type_list.get())
     except ValueError:
         pass
 
