@@ -62,7 +62,7 @@ off2 = widgets.OpenFileFrame(phantom_tank_frame)
 off2.grid(column=1, row=1)
 
 
-def pic_process(*args):
+def pic_process():
     try:
         picture1 = off1.get_file()
         picture2 = off2.get_file()

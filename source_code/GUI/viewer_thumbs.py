@@ -33,6 +33,7 @@ class ViewWidget(Toplevel):
         ttk.Label(self, image=img_object).grid()
         self.savephoto = img_object
 
+
 def viewer(img_direction, kind=Toplevel, cols=None):
     win = kind()
     win.title('Viewer:' + img_direction)
@@ -42,4 +43,3 @@ def viewer(img_direction, kind=Toplevel, cols=None):
     if not cols:
         cols = int(math.ceil(math.sqrt(len(thumb))))
 
-    
