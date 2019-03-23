@@ -6,13 +6,35 @@
 
 - 简单的格式转换，支持大部分常见图片格式。可以转换至其他文件夹并重命名。
 
+![格式转换](https://github.com/duskmoon314/Picture_processor/blob/master/README_img/%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2.png?raw=true)
 
+例子：原图 [Kaitan](https://www.pixiv.net/member.php?id=2924751) 的 [after](https://www.pixiv.net/member_illust.php?mode=medium&illust_id=55348597)
+
+![原图jpg](https://github.com/duskmoon314/Picture_processor/blob/master/README_img/example.jpg?raw=true)
+
+![PNG](https://github.com/duskmoon314/Picture_processor/blob/master/README_img/example.PNG?raw=true)
+
+![GIF](https://github.com/duskmoon314/Picture_processor/blob/master/README_img/example.GIF?raw=true)
+
+![BMP](https://raw.githubusercontent.com/duskmoon314/Picture_processor/master/README_img/example.BMP)
 
 - 生成“幻影坦克”，即用白色/黑色作为背景时显示不同图像的png文件。原理利用点阵故效果不能算是很理想
 
+![幻影坦克](https://github.com/duskmoon314/Picture_processor/blob/master/README_img/%E5%B9%BB%E5%BD%B1%E5%9D%A6%E5%85%8B.png?raw=true)
+
+例子：原图 [Kaitan](https://www.pixiv.net/member.php?id=2924751) 的 [after](https://www.pixiv.net/member_illust.php?mode=medium&illust_id=55348597) 和 [公国と200年の夜](https://www.pixiv.net/member_illust.php?mode=medium&illust_id=60565407)
+
+![生成图](https://github.com/duskmoon314/Picture_processor/blob/master/README_img/output.png?raw=true)
+
+![白色底](https://github.com/duskmoon314/Picture_processor/blob/master/README_img/output_whiteBackGround.png?raw=true)
+
+![黑色底](https://github.com/duskmoon314/Picture_processor/blob/master/README_img/output_blackBackGround.png?raw=true)
+
+
+
 ## 未来暂定目标：
 
-- 加入图片加密（通过傅里叶变换转为频域的方法）
+- 加入图片加隐水印（通过傅里叶变换转为频域的方法）
 - 加入GIF生成
 - 加入图片选择后的缩略图预览效果
 - 加入基于MIT License的waifu2x技术进行动漫类型图片的放大
