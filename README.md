@@ -1,6 +1,22 @@
 # Picture Processor
 
-## 当前版本：1.0
+## 当前版本：1.1
+
+### Github文件目录
+
+README.md: 用户文档等内容
+
+souce_code: 源代码
+
+venv: python虚拟环境
+
+README_img: README.md中用到的图片
+
+pp_ico.ICO: 图标文件（实际上源代码中用的是二进制编码的格式，仅放在此处作为格式转换的又一个例子）
+
+.idea: 一些配置信息（懒得删了）
+
+.gitattributes LICENSE: git配置与许可
 
 ### 功能：
 

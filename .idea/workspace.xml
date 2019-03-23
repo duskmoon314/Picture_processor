@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19af5a89-63a6-4547-887f-acaa2a344bee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Picture Processor.exe" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Picture Processor.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source_code/GUI/viewer_thumbs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source_code/GUI/widgets.py" beforeDir="false" afterPath="$PROJECT_DIR$/source_code/GUI/widgets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source_code/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/source_code/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source_code/pic_processor/processor.py" beforeDir="false" afterPath="$PROJECT_DIR$/source_code/pic_processor/processor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +50,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="247">
-                <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+                <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -101,7 +96,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="437" />
     <option name="y" value="60" />
     <option name="width" value="1215" />
@@ -257,10 +252,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="598" y="36" width="972" height="756" extended-state="0" />
-    <editor active="true" />
+    <frame x="350" y="48" width="972" height="756" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24866596" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24866596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -271,7 +265,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32961783" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32961783" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33917198" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33917198" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -315,7 +309,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="247">
-            <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+            <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
           </first_editor>
           <second_editor />
         </state>
