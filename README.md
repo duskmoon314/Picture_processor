@@ -8,6 +8,8 @@ README.md: 用户文档等内容
 
 souce_code: 源代码
 
+dist: 生成的**可执行文件在这里**，或者从**release**里下载
+
 venv: python虚拟环境
 
 README_img: README.md中用到的图片
