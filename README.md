@@ -10,11 +10,19 @@
 
 例子：原图 [Kaitan](https://www.pixiv.net/member.php?id=2924751) 的 [after](https://www.pixiv.net/member_illust.php?mode=medium&illust_id=55348597)
 
+原图jpg
+
 ![原图jpg](https://github.com/duskmoon314/Picture_processor/blob/master/README_img/example.jpg?raw=true)
+
+生成的png
 
 ![PNG](https://github.com/duskmoon314/Picture_processor/blob/master/README_img/example.PNG?raw=true)
 
+生成的gif
+
 ![GIF](https://github.com/duskmoon314/Picture_processor/blob/master/README_img/example.GIF?raw=true)
+
+生成的bmp
 
 ![BMP](https://raw.githubusercontent.com/duskmoon314/Picture_processor/master/README_img/example.BMP)
 
@@ -24,9 +32,15 @@
 
 例子：原图 [Kaitan](https://www.pixiv.net/member.php?id=2924751) 的 [after](https://www.pixiv.net/member_illust.php?mode=medium&illust_id=55348597) 和 [公国と200年の夜](https://www.pixiv.net/member_illust.php?mode=medium&illust_id=60565407)
 
+生成的图片
+
 ![生成图](https://github.com/duskmoon314/Picture_processor/blob/master/README_img/output.png?raw=true)
 
+白色为底的显示效果
+
 ![白色底](https://github.com/duskmoon314/Picture_processor/blob/master/README_img/output_whiteBackGround.png?raw=true)
+
+黑色为底的显示效果
 
 ![黑色底](https://github.com/duskmoon314/Picture_processor/blob/master/README_img/output_blackBackGround.png?raw=true)
 
