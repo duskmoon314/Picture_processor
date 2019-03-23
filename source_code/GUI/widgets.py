@@ -1,5 +1,5 @@
-import os, sys
-from PIL import Image
+# -*- coding:utf-8 -*-
+
 from tkinter import *
 from tkinter import ttk
 from tkinter import filedialog

@@ -1,5 +1,6 @@
 # -*- coding:UTF-8 -*-
-import os, sys
+
+import os
 from PIL import Image
 
 
